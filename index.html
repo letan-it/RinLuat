@@ -63,7 +63,7 @@ canvas {
   <script>
   var ten = window.location.href.toString().split("?")[1]
   console.log(ten)
-   document.getElementById("lblten").innerHTML  = ten
+   document.getElementById("lblten").innerHTML  = ten.replace('%20', ' ') 
   </script>
   <script>
 
